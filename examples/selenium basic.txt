@@ -1,0 +1,6 @@
+from selenium import webdriver #webdriver is responsible for all the actions here
+PATH = PATH of file chromedriver.exe # web browser here is chrome and to access that using webriver
+
+driver=webdriver.chrome(PATH)
+driver.get("url of website")
+driver.close()
